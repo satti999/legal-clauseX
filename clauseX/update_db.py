@@ -153,7 +153,7 @@ class EmbeddingDatabaseBuilder:
 
 if __name__ == "__main__":
 
-    path = "/home/ubaid-ur-rehman/Downloads/legal_clause/term.csv"
+    path = "D:/legal_clause/term.csv"
     df = pd.read_csv(path)  
 
     udb = EmbeddingDatabaseBuilder()

@@ -111,7 +111,7 @@ class EmbeddingDatabaseBuilder():
 if __name__ == "__main__":
     rag_instance = EmbeddingDatabaseBuilder(
         embedding_model="models/text-embedding-004",
-        directory="/home/ubaid-ur-rehman/Downloads/legal_clause/"
+        directory="D:/legal_clause/"
     )
     rag_instance.insert_into_mysql()  # Insert metadata into MySQL
 
